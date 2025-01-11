@@ -1,0 +1,347 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+.fira-sans-thin p{
+    color: rgba(14, 14, 14, 0.7);
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+
+.sign-in {
+    background-color: white;
+    border: 1px solid green;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 45px;
+    margin-left: 100px;
+    margin-right: 80px;
+    padding-bottom: 28px;
+    padding-top: 30px;
+
+
+}
+
+.content {
+    max-width: 340px;
+
+}
+
+.content h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn {
+    background-color: #008c73;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.image img {
+    max-width: 320px;
+}
+
+.bd {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+
+.vision {
+    padding-left: 100px;
+    padding-right: 80px;
+    display: block;
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skill-container {
+    display: flex;
+    gap: 10px;
+}
+
+.skill {
+    padding: 1px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+
+}
+
+.skill .color1 {
+    padding: 30px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.skill .color2 {
+    padding: 30px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgb(198, 228, 214);
+}
+
+.skill .color3 {
+    padding: 30px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgb(247, 235, 207);
+}
+
+.frame {
+
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+
+}
+
+.back-ground {
+    display: flex;
+    padding: 0px;
+    gap: 12px;
+    color: black;
+}
+
+.border {
+    background-image: url('/B11A1--assignment-1/assets/quote-bg.png');
+    background-repeat: no-repeat;
+
+    padding: 5px 5px 5px 10px;
+    display: block;
+}
+
+.class {
+    color: rgba(14, 14, 14, 0.6);
+    margin-top: 0px;
+    line-height: 1.2;
+    padding-bottom: 0px;
+}
+
+.chef {
+    margin-bottom: 5px;
+}
+
+.news {
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+.satelite {
+    display: flex;
+    gap: 64px;
+    flex-direction: row;
+    gap: 15;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.algajira {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: px;
+}
+
+.image-satelite img {
+
+    align-items: center;
+    border-radius: 16px;
+}
+
+.satelite-2 {
+    flex-direction: row-reverse;
+}
+
+.donate {
+    display: flex;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+.amount li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-left: 90px;
+    align-items: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    /* Add a border around the list item */
+    padding: 20px;
+    /* Add padding inside the border */
+    margin-bottom: 10px;
+    /* Add spacing between list items */
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.amount ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.amount ul .tk-2 {
+    background-color: rgb(198, 228, 214);
+}
+
+.form {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+    padding-top: 20px;
+    font-size: larger;
+}
+
+.done {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+    margin-top: 20px;
+}
+
+.pillars {
+    padding-left: 100px;
+    padding-right: 80px;
+    display: block;
+}
+
+.boxs {
+    display: flex;
+    gap: 10px;
+  
+}
+
+.pillar-of-bd {
+    padding: 30px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+
+}
+.subscriber {
+    padding: 80px;
+    padding-right: 80px;
+    text-align: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    
+}
+.subscriber h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 5px;
+}
+.subscriber p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: center;
+}
+.subscriber input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer{
+    padding-left: 100px;
+    padding-right: 80px;
+    text-align: center;
+
+}
+.footer hr{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.image img{
+    align-items: center;
+    flex-direction: column;
+}
